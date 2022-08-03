@@ -16,11 +16,10 @@
 }
 
 .text{
-    display : flex;
+    display: flex;
     position: absolute;
-
+    transform: translate(-50%, -50%);
     top : 15%;
-    right : 50%;
     left: 50%;
 
     font-size : 60px;
@@ -31,24 +30,19 @@
 
 .text1,.text2,.text3,.text4{
     margin : 0px 0px 0px 30px;
-    /*justify-content: center;*/
-    /*align-items: center;*/
+
 }
 
 .text1{
-
     animation: text1_ani 2s;
 }
 .text2{
-
     animation: text2_ani 6s;
 }
 .text3{
-
     animation: text3_ani 10s;
 }
 .text4{
-
     animation: text4_ani 14s;
 }
 
